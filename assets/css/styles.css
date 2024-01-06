@@ -1,0 +1,57 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: "Poppins", sans-serif;
+}
+
+h1,
+h2,
+h3 {
+  margin: 0;
+  text-align: center;
+  font-weight: 600;
+}
+
+h2 {
+  font-size: 1.75rem;
+}
+
+h3 {
+  font-size: 1.25rem;
+}
+
+.heading {
+  color: blue;
+  font-size: 2.75rem;
+}
+
+.logo {
+  float: left;
+  width: 100%;
+  height: 100%;
+}
+#table {
+  height: 10%;
+  width: 60%;
+  margin-inline: auto;
+  margin-bottom: 34px;
+}
+
+.print-button {
+  background: rgb(107, 106, 106);
+  color: white;
+  padding: 8px 24px;
+  font-weight: 600;
+  border: none;
+  border-radius: 4px;
+  float: right;
+  margin-block: 8px;
+  margin-right: 20px;
+  transition: color 0.5s ease-in-out;
+}
+.print-button:hover {
+  background-color: rgb(31, 31, 31);
+}
